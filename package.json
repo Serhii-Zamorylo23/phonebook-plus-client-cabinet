@@ -2,7 +2,7 @@
   "name": "phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://serhii-zamorylo23.github.io/phonebook-redux-asynk-thunk/",
+  "homepage": "https://serhii-zamorylo23.github.io/phonebook-plus-client-cabinet/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.1",
     "@testing-library/dom": "^10.4.0",
