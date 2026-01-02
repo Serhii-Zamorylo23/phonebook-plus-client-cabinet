@@ -65,7 +65,7 @@ const NewContact=()=>{
     if (isDuplicate) {
       alert("A contact with this name already exists!");
       return;
-    }
+    } 
     dispatch(AddContactThunk({token,name,contact}))
 
   };

@@ -49,7 +49,6 @@ const Reducer = createSlice({
       })
       .addCase(loginUserThunk.fulfilled,(state,action)=>{
         state.user = action.payload.user;
-        console.log(action.payload)
         // state.isLoged = true;
         state.token = action.payload.token;
       })

@@ -64,9 +64,6 @@ const Contacts = () => {
   useEffect(() => {
     dispatch(fetchContactsThunk(token));
   }, []);
-  useEffect(() => {
-    dispatch(fetchContactsThunk(token));
-  }, [contacts])
   const visibleContacts = contacts.filter((contact) =>contact.name.toLowerCase().includes(filter.toLowerCase()));
   const contactId = (event) => {
     dispatch(deleteContactThunk({
